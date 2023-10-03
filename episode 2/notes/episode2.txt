@@ -1,0 +1,44 @@
+* NPM 
+    -> It is not node package manager (ie: it does not has full form)
+    -> It is basically a repository of all the packages.
+
+*package.json
+    -> It is a configuration file for NPM
+
+* package-lock.json
+    -> It keeps exact track of all the dependencies.
+
+*Types of dependencies
+    -> 1. Dev dependencies: dependencies required for development enviroment.
+    -> 2. Normal dependencies: dependencies required for both production and development enviroments.
+
+*Parcel package
+    -> In this episode we have used parcel package which basically is used for bundling our app.
+
+*node_modules
+    -> It is like a database which stores all the files of the dependencies.
+
+*npx command
+    -> It is used to execute package
+
+*parcel package(BEAST)
+    -> dev build
+    -> local server
+    -> Fast reload: Hot module reload
+    -> uses file watching algorithm
+    -> Caching
+    -> Image Optimization
+    -> Minification
+    -> bundling
+    -> compress
+    -> consistent hashing
+    -> code splitting
+    -> differential bundling
+    -> Tree shaking -> removing unused code
+
+*Dev build
+    -> npx parcel index.html
+    -> npx parcel build index.html
+    
+*browserlist
+    -> Here we specify on which browsers our web app should run.
