@@ -1,0 +1,15 @@
+*JSX
+    -> HTML like syntax
+    -> JSX is different and React is different
+    -> JSX is not understood by browser
+    -> JSX is transpiled by babel which is installed by parcel before it reaches JS engine
+    -> How JSX works?
+        -> JSX --> React Element --> JS object --> HTML Element
+    -> If JSX is of multiple lines then it is mandatory to use ()
+
+*Component composition
+    -> Structuring components within components
+    
+*Components
+    -> 1. Functional components
+        -> Function which returns some JSX element.
