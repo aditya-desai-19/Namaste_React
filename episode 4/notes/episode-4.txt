@@ -1,0 +1,7 @@
+-> Passing props to a component is same as passing arguements to a function.
+
+-> config driven ui: controlling ui based on data.
+
+-> whenever you use map always use map.
+
+-> never use index as key in map
